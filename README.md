@@ -2,7 +2,6 @@
 
 An end-to-end NLP project that classifies Steam game reviews as **Positive** or **Negative** using Word2Vec embeddings and XGBoost, deployed as an interactive Streamlit app.
 
-🔗 **Live Demo:** [PLACEHOLDER-DEMO.streamlit.app](https://PLACEHOLDER-DEMO.streamlit.app/)
 
 ---
 
