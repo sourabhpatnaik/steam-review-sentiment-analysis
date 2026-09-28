@@ -6,3 +6,4 @@ xgboost==3.4.1
 gensim==4.4.0
 joblib==1.5.3
 nltk
+huggingface_hub
