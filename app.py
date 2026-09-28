@@ -326,7 +326,7 @@ def download_word2vec_files():
     for file in files:
 
         hf_hub_download(
-            repo_id="sourroo/steam-sentiment-model",
+            repo_id="sooroo/steam-sentiment-model",
             filename=file,
             local_dir="Final_model"
         )
