@@ -1,6 +1,17 @@
+# from nltk.corpus import stopwords
+# from nltk.stem import WordNetLemmatizer
+# import re
+# stop_words = set(stopwords.words("english"))
+
+import re
+import nltk
+
+for pkg in ["stopwords", "wordnet", "omw-1.4"]:
+    nltk.download(pkg, quiet=True)
+
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-import re
+
 stop_words = set(stopwords.words("english"))
 
 negations = {"not", "no", "never", "don't", "can't", "won't", "didn't", "isn't"}
